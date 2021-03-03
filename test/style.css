@@ -1,5 +1,7 @@
-:root {
+html, body {
+    border: 1px solid red;
     background: #FEFDF0;
+    min-height: 100 vh;
 }
 
 h1 {
