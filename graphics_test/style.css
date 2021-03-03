@@ -106,24 +106,6 @@ ol,
 ul {
   list-style: none;
 }
-@font-face {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Nunito Sans"), local("Nunito Sans Regular"),
-    url("./fonts/NunitoSans-Regular.woff2") format("woff2"),
-    url("./fonts/NunitoSans-Regular.woff") format("woff"),
-    url("./fonts/NunitoSans-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Zilla Slab Medium";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Zilla Slab Medium"),
-    url("./fonts/ZillaSlab-Medium.woff2") format("woff2"),
-    url("./fonts/ZillaSlab-Medium.woff") format("woff"),
-    url("./fonts/ZillaSlab-Medium.ttf") format("truetype");
-}
 body {
   color: #000;
   font-family: "Nunito Sans", sans-serif;
@@ -336,8 +318,8 @@ button.svelte-1kr9eyj:focus {
   text-align: center;
 }
 .header.svelte-12z2y5s h1.svelte-12z2y5s {
-  font-weight: 400;
-  font-family: "Zilla Slab Medium", serif;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
   letter-spacing: 0.5px;
   font-size: 15.6px;
   margin-bottom: 5.9171597633px;
@@ -577,7 +559,8 @@ button.svelte-1kr9eyj:focus {
   }
 }
 .tooltip__header.svelte-jn06ze h3.svelte-jn06ze {
-  font-family: "Zilla Slab Medium", serif;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
   font-size: 13px;
   line-height: 1.2;
   margin-bottom: 0.2em;
