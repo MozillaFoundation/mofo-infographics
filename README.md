@@ -1,12 +1,13 @@
 # MoFo Infographics
 
-Add each interactive graphic to its own folder, they'll be hosted on AWS automatically.
+A repository for all Mozilla Foundation interactive graphics used in publications on foundation.mozilla.org.
 
 
 # Contributing
 
+## Development 
 1. Be a trusted Mozilla Foundation contractor
-2. Understand an reference the [Mozilla Foundation Brand Identity](https://foundation.mozilla.org/en/docs/brand/design/) and [Agency Assets](https://foundation.mozilla.org/en/docs/brand/agency-assets/) when building the infographic. For expanded color palettes, contact the Mozilla Foundation design team.
+2. Understand an reference the [Mozilla Foundation Brand Identity](https://foundation.mozilla.org/en/docs/brand/design/) and [Agency Assets](https://foundation.mozilla.org/en/docs/brand/agency-assets/) when building the graphic. For expanded color palettes, or other branding questions, contact the Mozilla Foundation design team.
 3. Verify your infographic passes the following requirements:
     * Works when embedded in an iframe
     * Has an index.html entry point that includes other necessary resources via relative paths.
@@ -15,8 +16,12 @@ Add each interactive graphic to its own folder, they'll be hosted on AWS automat
     * Doesn't link to pages outside foundation.mozilla.org
     * Doesn't fetch data from any external APIs
     * Unpackaged source code is available (see below)
-4. Clone the mofo-infographics repository
-5. Submit a pull request adding your packaged files to the `/projects/<launch date>-<project-name-with-hypens>/` folder
-6. In your pull request message, include a link to the repository containing the full, unpackaged source of your infographic.
-7. The Engineering team will review your code for security issues and approve your PR
-8. Your code will be live at `https://mofo-infographics.s3.amazonaws.com/projects/<launch date>-<project-name-with-hypens>/index.html`
+4. Host a version of the infographic on GitHub Pages or your own personal site for the Mozilla Foundation Design Team and other stakeholders to review.
+
+## Deployment 
+Once the final graphic is approved for deployment:
+1. Clone the mofo-infographics repository
+2. Submit a pull request adding your packaged files to the `/projects/<launch date>-<project-name-with-hypens>/` folder
+3. In your pull request message, include a link to the repository containing the full, unpackaged source of your infographic.
+4. The Engineering team will review your code for security issues and approve your PR
+5. Your code will be live at `https://mofo-infographics.s3.amazonaws.com/projects/<launch date>-<project-name-with-hypens>/index.html`
