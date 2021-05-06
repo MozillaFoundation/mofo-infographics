@@ -20,8 +20,9 @@ A repository for all Mozilla Foundation interactive graphics used in publication
 
 ## Deployment 
 Once the final graphic is approved for deployment:
-1. Clone the mofo-infographics repository
-2. Submit a pull request adding your packaged files to the `/projects/<launch date>-<project-name-with-hypens>/` folder
-3. In your pull request message, include a link to the repository containing the full, unpackaged source of your infographic.
-4. The Engineering team will review your code for security issues and approve your PR
-5. Your code will be live at `https://mofo-infographics.s3.amazonaws.com/projects/<launch date>-<project-name-with-hypens>/index.html`
+1. Fork the mofo-infographics repository
+2. Clone your fork to your local dev environment
+3. Submit a pull request adding your packaged files to the `/projects/<launch date>-<project-name-with-hypens>/` folder. See [Creating a Pull Request From a Fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for more info
+4. In your pull request message, include a link to the repository containing the full, unpackaged source of your infographic.
+5. The Engineering team will review your code for security issues and approve your PR
+6. Your code will be live at `https://mofo-infographics.s3.amazonaws.com/projects/<launch date>-<project-name-with-hypens>/index.html`
